@@ -15,6 +15,7 @@
 		E235AE1C2439206800034364 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E235AE1A2439206800034364 /* LaunchScreen.storyboard */; };
 		E235AE272439206900034364 /* BullseyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E235AE262439206900034364 /* BullseyeTests.swift */; };
 		E235AE322439206900034364 /* BullseyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E235AE312439206900034364 /* BullseyeUITests.swift */; };
+		E235AE402439628B00034364 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E235AE3F2439628A00034364 /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E235AE2D2439206900034364 /* BullseyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullseyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E235AE312439206900034364 /* BullseyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeUITests.swift; sourceTree = "<group>"; };
 		E235AE332439206900034364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E235AE3F2439628A00034364 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				E235AE1A2439206800034364 /* LaunchScreen.storyboard */,
 				E235AE1D2439206800034364 /* Info.plist */,
 				E235AE172439206800034364 /* Preview Content */,
+				E235AE3F2439628A00034364 /* AboutView.swift */,
 			);
 			path = Bullseye;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E235AE402439628B00034364 /* AboutView.swift in Sources */,
 				E235AE102439205300034364 /* AppDelegate.swift in Sources */,
 				E235AE122439205300034364 /* SceneDelegate.swift in Sources */,
 				E235AE142439205300034364 /* ContentView.swift in Sources */,
